@@ -1,0 +1,54 @@
+title = "Wiro Logiciel Libre"
+base_url = "https://wiro-libre.github.io"
+default_language = "fr"
+
+theme = "papermod"
+compile_sass = true
+build_search_index = false
+generate_feed = true
+minify_html = true
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = false
+
+[extra]
+[extra.papermod]
+title = "Wiro Logiciel Libre"
+home_title = ""
+home_content = """
+<b>Nous</b> cherchons à _superviser le développement de logiciels informatiques sous licences libres et superviser les infrastructures de l’hébergement à utilisation publique de tels logiciels_.
+
+Vous pouvez retouver nos projets sur GitHub.
+"""
+social_icons = [
+    { title = "GitHub", icon = "github", url = "https://github.com/wiro-libre" },
+    { title = "RSS", icon = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+theme = "light"
+default_theme = "auto"
+language_direction = "auto"
+keywords = []
+
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = true
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+show_post_edit_button = false
+
+default_toc_open = false
+edit_post_url = "https://github.com/wiro-libre/wiro-libre.github.io/tree/master"
+date_format = "%Y-%m-%d"
+
+navigation = [
+    { url = "$BASE_URL/archive", title = "Archive" },
+    { url = "$BASE_URL/tags", title = "Tags" },
+]
+
