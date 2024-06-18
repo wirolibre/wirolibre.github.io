@@ -1,5 +1,5 @@
 title = "Wiro Logiciel Libre"
-base_url = "https://wiro-libre.github.io"
+base_url = "https://wirolibre.github.io"
 default_language = "fr"
 
 theme = "papermod"
@@ -41,7 +41,7 @@ show_reading_time = true
 show_word_count = false
 show_post_nav_links = true
 show_post_meta = true
-show_post_edit_button = false
+show_post_edit_button = true
 
 default_toc_open = false
 edit_post_url = "https://github.com/wiro-libre/wiro-libre.github.io/tree/master"
