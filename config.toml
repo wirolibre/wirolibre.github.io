@@ -25,7 +25,7 @@ home_content = """
 Vous pouvez retouver nos projets sur GitHub.
 """
 social_icons = [
-    { title = "GitHub", icon = "github", url = "https://github.com/wiro-libre" },
+    { title = "GitHub", icon = "github", url = "https://github.com/wirolibre" },
     { title = "RSS", icon = "rss", url = "$BASE_URL/atom.xml" },
 ]
 
